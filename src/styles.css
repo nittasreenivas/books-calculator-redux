@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: flex;
+}
+
+.books {
+  border: 2px solid;
+  width: 350px;
+  padding: 10px;
+  margin: 10px;
+}
+
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+.add {
+  border: 0px;
+  padding: 5px;
+  background: green;
+  width: 200px;
+  color: white;
+  border-radius: 6px;
+}
+
+.remove {
+  border: 0px;
+  padding: 5px;
+  background: lightcoral;
+  width: 200px;
+  color: white;
+  border-radius: 6px;
+}
+
+.cart {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.cart-items {
+  border: 1px solid red;
+  padding: 10px;
+  margin: 9px;
+}
